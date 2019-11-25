@@ -7,7 +7,7 @@ module top(
 
 	wire PLL_CLK;
 	reg[0:575] data;
-
+	reg [63:0] transmit_count;
 	always@(posedge CLK )begin
 		data[0:7] <= 8'b10101010; //preamble
 		data[8:15] <= 8'b10101010;
@@ -27,6 +27,13 @@ module top(
 		data[176:543] <= 0; //data
 
 		data[544:575] <= 0; //CRC
+		
+		if(transmit_count > 575)begin
+			data <= 0;
+		end
+		else begin
+			transmit_count <= transmit_count + 1;
+		end
 	end
 
 
