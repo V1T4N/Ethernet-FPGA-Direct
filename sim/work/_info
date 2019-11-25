@@ -9,21 +9,21 @@ z2
 cModel Technology
 dC:/intelFPGA_lite/My_CPU/simulation
 vdecode
-Z0 !s110 1574515904
+Z0 !s110 1574665343
 !i10b 1
-!s100 FNm<;0ZMa>>4T[H90k5@93
-IaYQg4cLlzC`D[40E0TgEd2
+!s100 1GWdPP_nP0L:?JKUP>Fh`1
+I>g4Rd@@`mF^]e;:NZnVNm1
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 dC:/intelFPGA_lite/ether/sim
-Z3 w1574515888
+Z3 w1574665340
 Z4 8C:/intelFPGA_lite/ether/top.v
 Z5 FC:/intelFPGA_lite/ether/top.v
-L0 43
+L0 60
 Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1574515904.000000
+Z7 !s108 1574665343.000000
 Z8 !s107 C:/intelFPGA_lite/ether/top.v|
 Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_lite/ether/top.v|
 !i113 1
@@ -53,8 +53,8 @@ R11
 vtop
 R0
 !i10b 1
-!s100 alMNo@QF]YS7lK:G1Iz0I2
-I`kJYBE?_9dL6;0L<31X<f0
+!s100 K15lNl=Oo0:DzaTl>F3]I1
+I[^hieJ^gB0;fG9Ad@KT>N3
 R1
 R2
 R3
