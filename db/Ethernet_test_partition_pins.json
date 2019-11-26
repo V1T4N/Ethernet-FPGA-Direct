@@ -1,0 +1,13 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ARDUINO_IO[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
